@@ -1,0 +1,15 @@
+{
+   "background_page": "background.html",
+   "description": "Adds a new context menu to search Youtube for a selected text.",
+   "icons": {
+      "128": "icon_128.png",
+      "16": "icon_16.png",
+      "48": "icon_48.png"
+   },
+   "key": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2bEsFy2ojsTQJUDfrzZU6B1+ErUfH3zzwKwdE+nyFqbAdASzMWykocAoXeyag7TtI2ekpwBIvH8ZcmXXSWg7tf57t1lnFoJnZh1ONJBHsSdRznoszln39X/ss1XxT7z2/6iDG+ta0898noQ0gXa8ufs9Z6NUK4vh3YYNa+QUUQwIDAQAB",
+   "minimum_chrome_version": "6",
+   "name": "Search Youtube For a Selected Text",
+   "permissions": [ "tabs", "contextMenus" ],
+   "update_url": "http://clients2.google.com/service/update2/crx",
+   "version": "1.0.1"
+}
