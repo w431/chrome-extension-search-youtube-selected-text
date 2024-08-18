@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Search Youtube For Selected Text",
+    "name": "Search YouTube For Selected Text",
     "version": "2.0.0",
-    "description": "Adds a new context menu item to search Youtube for a selected text.",
+    "description": "Adds a new context menu item to search YouTube for a selected text.",
     "icons": {
         "16": "icon-16.png",
         "48": "icon-48.png",

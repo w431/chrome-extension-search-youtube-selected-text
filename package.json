@@ -1,15 +1,20 @@
 {
-  "name": "chrome-extension-boilerplate",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "search-youtube-for-selected-text",
+  "version": "2.0.0",
+  "author": "Wael Hamdan",
+  "license": "MIT",
+  "description": "Chrome extension that adds a context menu to search YouTube for a selected text on any web page.",
   "scripts": {
     "watch": "webpack serve --config webpack/webpack.dev.js --open",
     "build": "webpack --progress --config webpack/webpack.prod.js"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "Chrome",
+    "extension",
+    "YouTube",
+    "context menu",
+    "search"
+  ],
   "devDependencies": {
     "@types/chrome": "^0.0.240",
     "@types/webpack-env": "^1.18.5",
