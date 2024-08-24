@@ -32,6 +32,5 @@ function handleContextMenuClick(info: chrome.contextMenus.OnClickData): void {
   }
 }
 
-// Event listeners
 chrome.runtime.onInstalled.addListener(createContextMenu);
 chrome.contextMenus.onClicked.addListener(handleContextMenuClick);
