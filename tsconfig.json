@@ -1,17 +1,7 @@
 {
     "compilerOptions": {
-        "types": ["chrome", "node", "webpack-env"],
-        "jsx": "react",
+        "types": ["chrome"],
         "module": "es6",
         "target": "es6",
-        "moduleResolution": "node",
-        "esModuleInterop": true,
-        // "baseUrl": ".",
-        // "paths": {
-        //   "@/*": ["./src/*"]
-        // }
-
     },
-    "include": ["src/**/*.js", "src/**/*.ts", "src/**/*.tsx"], //TODO
-    "exclude": ["node_modules"]
 }

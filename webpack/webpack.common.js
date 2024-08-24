@@ -1,54 +1,35 @@
-const path = require("path");
-const CopyPlugin = require("copy-webpack-plugin");
-const webpack = require('webpack');
-const production = process.env.NODE_ENV === 'production';
+import path from 'path';
+import CopyPlugin from 'copy-webpack-plugin';
 
-const config = {
-	entry: {
-		background: path.resolve("./src/background/background.ts"),
-	},
-	resolve: {
-		extensions: [".tsx", ".ts", ".js"],
-	},
-	output: {
-		filename: "[name].js",
-		clean: true,
-	},
-	module: {
-		rules: [
-			{
-				use: "ts-loader",
-				test: /\.tsx?$/,
-				exclude: /node_modules/,
-			},
-		],
-	},
-	plugins: [
-		new CopyPlugin({
-			patterns: [
-				{
-					from: path.resolve("src/static"),
-					to: path.resolve("dist"),
-				}
-			],
-		}),
-	],
-	devServer: {
-        static: path.join(__dirname, 'dist'),
-        port: 3000,
+export default {
+    entry: {
+        background: path.resolve(import.meta.dirname, '../src/background/background.ts'),
     },
+    output: {
+        filename: '[name].js',
+        path: path.resolve(import.meta.dirname, '../dist'),
+        clean: true,
+    },
+    resolve: {
+        extensions: ['.ts', '.js'],
+    },
+    module: {
+        rules: [
+            {
+                use: 'ts-loader',
+                test: /\.ts?$/,
+                exclude: /node_modules/,
+            },
+        ],
+    },
+    plugins: [
+        new CopyPlugin({
+            patterns: [
+                {
+                    from: path.resolve(import.meta.dirname, '../src/static'),
+                    to: path.resolve(import.meta.dirname, '../dist'),
+                }
+            ],
+        }),
+    ],
 };
-// TODO
-if (production) {
-	config.optimization = {
-		minimize: production,
-		minimizer: [
-			new EsbuildPlugin({
-				target: 'es2015',
-				css: true,
-			}),
-		],
-	};
-}
-
-module.exports = config;
