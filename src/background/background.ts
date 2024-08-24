@@ -13,7 +13,6 @@ function createContextMenu(): void {
       console.error('Error creating context menu:', chrome.runtime.lastError);
     }
   });
-    
 }
 
 function generateYouTubeSearchURL(encodedQuery: string): string {
