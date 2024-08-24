@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 
 Simple Chrome extension that adds a context menu to search YouTube for selected text on a webpage.
-Just highlight the text, right click and choose 'Search YouTube for'. 
+Just highlight the text, right click and choose 'Search YouTube for'.
 Selected query will be passed to YouTube's search page in a new browser tab.
 
 ## Installation
@@ -27,9 +27,9 @@ To install the extension locally for development:
    ```
 
 4. **Load the extension in Chrome**:
-   - Open Chrome and go to `chrome://extensions/`.
-   - Enable "Developer mode" at the top right.
-   - Click on "Load unpacked" and select the `dist` folder from your project directory.
+    - Open Chrome and go to `chrome://extensions/`.
+    - Enable "Developer mode" at the top right.
+    - Click on "Load unpacked" and select the `dist` folder from your project directory.
 
 ## License
 

@@ -1,12 +1,12 @@
 {
-    "compilerOptions": {
-        "types": [
-            "chrome"
-        ],
-        "module": "es6",
-        "target": "es6",
-        "include": [
-            "src/**/*"
-        ],
-    }
+  "compilerOptions": {
+    "types": [
+      "chrome"
+    ],
+    "module": "es6",
+    "target": "es6"
+  },
+  "include": [
+    "src/**/*"
+  ]
 }
