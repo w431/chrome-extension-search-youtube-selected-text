@@ -15,7 +15,8 @@ function createContextMenu(): void {
     });
 }
 
-function generateYouTubeSearchURL(encodedQuery: string): string {
+function generateYouTubeSearchURL(query: string): string {
+    const encodedQuery = encodeURIComponent(query);
     return `${YOUTUBE_SEARCH_URL}${encodedQuery}`;
 }
 
