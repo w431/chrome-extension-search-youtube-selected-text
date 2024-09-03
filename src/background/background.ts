@@ -4,8 +4,7 @@ const CONTEXTS = ['selection'] as chrome.contextMenus.ContextType[];
 const YOUTUBE_SEARCH_URL = 'https://www.youtube.com/results?search_query=';
 
 /**
- * Creates the main context menu for the extension.
- * 'Search YouTube for..' is added as an item to the menu.
+ * Creates the main context menu item for the extension.
  * @return {void}
  */
 const createContextMenu = (): void => {
