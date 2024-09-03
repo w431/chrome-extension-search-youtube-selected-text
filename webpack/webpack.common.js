@@ -28,7 +28,7 @@ export default {
                 {
                     from: path.resolve(import.meta.dirname, '../src/static'),
                     to: path.resolve(import.meta.dirname, '../dist'),
-                }
+                },
             ],
         }),
     ],
