@@ -30,6 +30,13 @@ To install the extension locally for development:
     - Open Chrome and go to `chrome://extensions/`.
     - Enable "Developer mode" at the top right.
     - Click on "Load unpacked" and select the `dist` folder from your project directory.
+   
+## Supported Languages
+- English
+- French
+- Arabic
+
+Feel free to translate this extension to your language. Contributions are welcome!
 
 ## License
 

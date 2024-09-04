@@ -1,0 +1,11 @@
+{
+  "appName": {
+     "message": "ابحث في YouTube عن النص المحدد."
+  },
+  "appDescription": {
+   "message": "ابحث في YouTube عن أي نص محدد على أي صفحة."
+  },
+  "contextMenuTitle": {
+    "message": "ابحث في YouTube عن '%s'"
+  }
+}

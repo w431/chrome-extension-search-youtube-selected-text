@@ -1,0 +1,11 @@
+{
+  "appName": {
+     "message": "Rechercher sur YouTube le texte sélectionné"
+  },
+  "appDescription": {
+   "message": "Ajout d'un nouvel élément de menu contextuel pour rechercher sur YouTube un texte sélectionné."
+  },
+  "contextMenuTitle": {
+    "message": "Recherchez sur YouTube '%s'"
+  }
+}

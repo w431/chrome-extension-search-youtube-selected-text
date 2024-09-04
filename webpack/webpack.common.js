@@ -29,6 +29,10 @@ export default {
                     from: path.resolve(import.meta.dirname, '../src/static'),
                     to: path.resolve(import.meta.dirname, '../dist'),
                 },
+                {
+                    from: path.resolve(import.meta.dirname, '../src/_locales'),
+                    to: path.resolve(import.meta.dirname, '../dist/_locales'),
+                },
             ],
         }),
     ],

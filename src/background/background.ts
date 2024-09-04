@@ -1,5 +1,5 @@
 const CONTEXT_MENU_ID = 'searchYouTube';
-const CONTEXT_MENU_TITLE = "Search YouTube for '%s'";
+const CONTEXT_MENU_TITLE = chrome.i18n.getMessage('contextMenuTitle');
 const CONTEXTS = ['selection'] as chrome.contextMenus.ContextType[];
 const YOUTUBE_SEARCH_URL = 'https://www.youtube.com/results?search_query=';
 
