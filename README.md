@@ -45,3 +45,15 @@ This project is licensed under the MIT License.
 ## Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues.
+
+<hr>
+
+<p>
+  <img src="https://img.shields.io/badge/Webpack-8DD6F9?logo=webpack&logoColor=black" alt="Webpack" />
+  <img src="https://img.shields.io/badge/TypeScript-007ACC?logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
+  <img src="https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=white" alt="Prettier" />
+  <img src="https://img.shields.io/badge/Jest-323330?logo=Jest&logoColor=white" alt="Jest" />
+  <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?logo=google-chrome&logoColor=white" alt="Chrome Extension" />
+</p>
+ 
