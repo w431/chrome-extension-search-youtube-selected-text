@@ -6,6 +6,20 @@
 import type { Config } from 'jest';
 
 const config: Config = {
+    // The glob patterns Jest uses to detect test files
+    testMatch: ['<rootDir>/src/__tests__/**/*.ts'],
+
+    // A map from regular expressions to paths to transformers
+    transform: {
+        '^.+\\.ts$': 'ts-jest',
+    },
+
+    // An array of file extensions your modules use
+    moduleFileExtensions: ['ts', 'js'],
+
+    // The paths to modules that run some code to configure or set up the testing environment before each test
+    setupFiles: ['<rootDir>/src/jest.setup.ts'],
+
     // All imported modules in your tests should be mocked automatically
     // automock: false,
 
@@ -34,6 +48,9 @@ const config: Config = {
 
     // Indicates which provider should be used to instrument code for coverage
     coverageProvider: 'v8',
+
+    // The test environment that will be used for testing
+    testEnvironment: 'jsdom',
 
     // A list of reporter names that Jest uses when writing coverage reports
     // coverageReporters: [
@@ -75,18 +92,6 @@ const config: Config = {
     // An array of directory names to be searched recursively up from the requiring module's location
     // moduleDirectories: [
     //   "node_modules"
-    // ],
-
-    // An array of file extensions your modules use
-    // moduleFileExtensions: [
-    //   "js",
-    //   "mjs",
-    //   "cjs",
-    //   "jsx",
-    //   "ts",
-    //   "tsx",
-    //   "json",
-    //   "node"
     // ],
 
     // A map from regular expressions to module names or to arrays of module names that allow to stub out resources with a single module
@@ -133,9 +138,6 @@ const config: Config = {
     // Allows you to use a custom runner instead of Jest's default test runner
     // runner: "jest-runner",
 
-    // The paths to modules that run some code to configure or set up the testing environment before each test
-    // setupFiles: [],
-
     // A list of paths to modules that run some code to configure or set up the testing framework before each test
     // setupFilesAfterEnv: [],
 
@@ -145,20 +147,11 @@ const config: Config = {
     // A list of paths to snapshot serializer modules Jest should use for snapshot testing
     // snapshotSerializers: [],
 
-    // The test environment that will be used for testing
-    testEnvironment: 'jsdom',
-
     // Options that will be passed to the testEnvironment
     // testEnvironmentOptions: {},
 
     // Adds a location field to test results
     // testLocationInResults: false,
-
-    // The glob patterns Jest uses to detect test files
-    // testMatch: [
-    //   "**/__tests__/**/*.[jt]s?(x)",
-    //   "**/?(*.)+(spec|test).[tj]s?(x)"
-    // ],
 
     // An array of regexp pattern strings that are matched against all test paths, matched tests are skipped
     // testPathIgnorePatterns: [
@@ -173,9 +166,6 @@ const config: Config = {
 
     // This option allows use of a custom test runner
     // testRunner: "jest-circus/runner",
-
-    // A map from regular expressions to paths to transformers
-    // transform: undefined,
 
     // An array of regexp pattern strings that are matched against all source file paths, matched files will skip transformation
     // transformIgnorePatterns: [
