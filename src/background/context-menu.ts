@@ -58,5 +58,4 @@ const getContextMenuConfig = (): chrome.contextMenus.CreateProperties => ({
     contexts: CONTEXTS,
 });
 
-chrome.runtime.onInstalled.addListener(createContextMenu);
-chrome.contextMenus.onClicked.addListener(handleContextMenuClick);
+export { createContextMenu, handleContextMenuClick };

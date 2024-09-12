@@ -3,7 +3,7 @@ import CopyPlugin from 'copy-webpack-plugin';
 
 export default {
     entry: {
-        background: path.resolve(import.meta.dirname, '../src/background/background.ts'),
+        background: path.resolve(import.meta.dirname, '../src/background'),
     },
     output: {
         filename: '[name].js',
