@@ -1,8 +1,13 @@
-import { createContextMenu, handleContextMenuClick } from './context-menu';
+import ContextMenu from './context-menu';
 
 const setup = (): void => {
-    chrome.runtime.onInstalled.addListener(createContextMenu);
-    chrome.contextMenus.onClicked.addListener(handleContextMenuClick);
+    const contextMenu = new ContextMenu({
+        id: 'searchYouTube',
+        title: chrome.i18n.getMessage('contextMenuTitle'),
+        contexts: ['selection'],
+    });
+    chrome.runtime.onInstalled.addListener(contextMenu.create);
+    chrome.contextMenus.onClicked.addListener(contextMenu.onClick);
 };
 
 export default setup;
