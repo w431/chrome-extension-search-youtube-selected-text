@@ -8,6 +8,7 @@
     "watch": "webpack --watch --config webpack/webpack.dev.js",
     "build": "webpack --progress --config webpack/webpack.prod.js",
     "test": "jest",
+    "lint": "eslint .",
     "test:coverage": "jest --coverage",
     "make:badge": "make-coverage-badge --output-path ./badges/coverage.svg",
     "coverage": "npm run test:coverage && npm run make:badge",

@@ -4,6 +4,9 @@ import prettierPlugin from 'eslint-plugin-prettier';
 import prettierConfig from 'eslint-config-prettier';
 
 export default [
+    {
+        ignores: ['dist/*'],
+    },
     eslint.configs.recommended,
     ...tseslint.configs.strict,
     prettierConfig,
