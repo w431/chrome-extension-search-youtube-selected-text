@@ -14,6 +14,9 @@
     "coverage": "npm run test:coverage && npm run make:badge",
     "prepare": "husky"
   },
+  "lint-staged": {
+    "*": "npm run lint"
+  },
   "keywords": [
     "Chrome",
     "extension",
@@ -45,5 +48,8 @@
     "webpack": "^5.88.1",
     "webpack-cli": "^5.1.4",
     "webpack-merge": "^6.0.1"
+  },
+  "dependencies": {
+    "lint-staged": "^15.2.10"
   }
 }
