@@ -15,7 +15,7 @@ class ContextMenu {
             {
                 id: this.id,
                 title: this.title,
-                contexts: this.contexts,
+                contexts: this.contexts
             },
             () => {
                 if (chrome.runtime.lastError) {
