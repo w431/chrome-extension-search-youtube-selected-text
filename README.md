@@ -11,30 +11,34 @@ Selected query will be passed to YouTube's search page in a new browser tab.
 To install the extension locally for development:
 
 1. **Clone the repository**:
-   ```sh
-   git clone https://github.com/w431/Search-Youtube-For-a-Selected-Text.git
-   cd Search-Youtube-For-a-Selected-Text
-   ```
+
+    ```sh
+    git clone https://github.com/w431/Search-Youtube-For-a-Selected-Text.git
+    cd Search-Youtube-For-a-Selected-Text
+    ```
 
 2. **Install dependencies**:
-   ```sh
-   npm install
-   ```
+
+    ```sh
+    npm install
+    ```
 
 3. **Build the project**:
-   ```sh
-   npm run build
-   ```
+
+    ```sh
+    npm run build
+    ```
 
 4. **Load the extension in Chrome**:
     - Open Chrome and go to `chrome://extensions/`.
     - Enable "Developer mode" at the top right.
     - Click on "Load unpacked" and select the `dist` folder from your project directory.
-   
+
 ## Supported Languages
-- English
-- French
-- Arabic
+
+-   English
+-   French
+-   Arabic
 
 Feel free to translate this extension to your language. Contributions are welcome!
 
@@ -56,4 +60,3 @@ Contributions are welcome! Feel free to submit pull requests or open issues.
   <img src="https://img.shields.io/badge/Jest-323330?logo=Jest&logoColor=white" alt="Jest" />
   <img src="https://img.shields.io/badge/Chrome_Extension-4285F4?logo=google-chrome&logoColor=white" alt="Chrome Extension" />
 </p>
- 

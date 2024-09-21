@@ -19,7 +19,7 @@ class ContextMenu {
             },
             () => {
                 if (chrome.runtime.lastError) {
-                    console.error('Error creating context menu:', chrome.runtime.lastError)
+                    console.error('Error creating context menu:', chrome.runtime.lastError);
                 }
             },
         );

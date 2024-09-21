@@ -1,17 +1,11 @@
 {
-  "compilerOptions": {
-    "moduleResolution": "node",
-    "esModuleInterop": true,
-    "types": [
-      "node",
-      "chrome",
-      "jest"
-    ],
-    "module": "es6",
-    "target": "es6",
-    "skipLibCheck": true,
-  },
-  "include": [
-    "src/**/*"
-  ]
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "esModuleInterop": true,
+        "types": ["node", "chrome", "jest"],
+        "module": "es6",
+        "target": "es6",
+        "skipLibCheck": true
+    },
+    "include": ["src/**/*"]
 }

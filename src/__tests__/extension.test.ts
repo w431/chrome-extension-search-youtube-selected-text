@@ -23,7 +23,7 @@ describe('Extension Setup', () => {
         expect(MockedContextMenu).toHaveBeenCalledWith({
             id: 'searchYouTube',
             title: expect.any(String),
-            contexts: ['selection']
+            contexts: ['selection'],
         });
     });
 
