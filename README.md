@@ -2,7 +2,7 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Coverage](./badges/coverage.svg)
 
-Simple Chrome extension that adds a context menu to search YouTube for selected text on a webpage.
+Simple Google Chrome browser extension that adds a context menu to search YouTube for selected text on a webpage.
 Just highlight the text, right click and choose 'Search YouTube for'.
 Selected query will be passed to YouTube's search page in a new browser tab.
 
