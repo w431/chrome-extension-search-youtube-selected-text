@@ -1,8 +1,11 @@
 import 'jest-webextension-mock';
+
 globalThis.chrome.contextMenus = {
     create: jest.fn((config: chrome.contextMenus.CreateProperties, callback?: () => void) => {
+
         if (callback) callback();
         return undefined;
+
     }),
     update: jest.fn(),
     remove: jest.fn(),

@@ -11,7 +11,10 @@ export default {
         clean: true,
     },
     resolve: {
-        extensions: ['.ts', '.js'],
+        extensions: [
+            '.ts',
+            '.js',
+        ],
     },
     module: {
         rules: [
