@@ -13,8 +13,8 @@ To install the extension locally for development:
 1. **Clone the repository**:
 
     ```sh
-    git clone https://github.com/w431/Search-Youtube-For-a-Selected-Text.git
-    cd Search-Youtube-For-a-Selected-Text
+    git clone https://github.com/w431/chrome-extension-search-youtube-selected-text.git
+    cd chrome-extension-search-youtube-selected-text
     ```
 
 2. **Install dependencies**:
