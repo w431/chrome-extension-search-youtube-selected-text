@@ -86,6 +86,21 @@ export default [
                 'error',
                 'consistent',
             ],
+            '@stylistic/no-multiple-empty-lines': [
+                'error',
+                { max: 1 },
+            ],
+            '@stylistic/max-len': [
+                'error',
+                {
+                    code: 120,
+                    ignoreUrls: true,
+                    ignoreComments: false,
+                    ignoreRegExpLiterals: true,
+                    ignoreStrings: true,
+                    ignoreTemplateLiterals: true,
+                },
+            ],
         },
     },
 ];
