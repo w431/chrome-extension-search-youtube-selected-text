@@ -1,4 +1,4 @@
-# Search YouTube for Selected Text
+# Chrome Extension: Search YouTube for Selected Text
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Coverage](./badges/coverage.svg)
 
