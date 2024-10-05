@@ -3,7 +3,7 @@
         "message": "Search YouTube For Selected Text"
     },
     "appDescription": {
-        "message": "Adds a new context menu item (right click) to search YouTube for a selected text."
+        "message": "Curious about something you’ve read online? Just highlight, right-click, and discover videos that match your selection!"
     },
     "contextMenuTitle": {
         "message": "Search YouTube for '%s'"

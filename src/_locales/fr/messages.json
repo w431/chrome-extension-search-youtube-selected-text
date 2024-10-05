@@ -3,7 +3,7 @@
         "message": "Rechercher sur YouTube le texte sélectionné"
     },
     "appDescription": {
-        "message": "Ajout d'un nouvel élément de menu contextuel pour rechercher sur YouTube un texte sélectionné."
+        "message": "Curieux à propos de quelque chose que vous avez lu en ligne?  Il suffit de surligner, cliquer droit, et découvrir des vidéos qui correspondent à votre sélection!"
     },
     "contextMenuTitle": {
         "message": "Recherchez sur YouTube '%s'"
