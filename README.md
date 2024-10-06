@@ -37,7 +37,6 @@ To install the extension locally for development:
 ## Supported Languages
 
 -   English
--   French
 -   Arabic
 
 Feel free to translate this extension to your language. Contributions are welcome!
