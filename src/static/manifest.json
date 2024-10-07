@@ -12,6 +12,6 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["contextMenus", "activeTab"],
+    "permissions": ["contextMenus"],
     "default_locale": "en"
 }
