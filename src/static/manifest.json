@@ -3,6 +3,14 @@
     "version": "2.0.0",
     "name": "__MSG_appName__",
     "description": "__MSG_appDescription__",
+    "action": {
+        "default_icon": {
+            "16": "icon-16.png",
+            "48": "icon-48.png",
+            "64": "icon-64.png",
+            "128": "icon-128.png"
+        }
+    },
     "icons": {
         "16": "icon-16.png",
         "48": "icon-48.png",
@@ -12,6 +20,6 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["contextMenus"],
+    "permissions": ["contextMenus", "activeTab"],
     "default_locale": "en"
 }
