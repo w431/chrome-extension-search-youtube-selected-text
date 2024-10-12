@@ -1,6 +1,6 @@
 {
     "name": "search-youtube-for-selected-text",
-    "version": "2.0.0",
+    "version": "2.0.1",
     "author": "Wael Hamdan",
     "license": "MIT",
     "description": "Chrome extension that adds a context menu to search YouTube for a selected text on any web page.",
