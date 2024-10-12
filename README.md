@@ -1,4 +1,4 @@
-# Chrome Extension: Search YouTube for Selected Text
+# 🧩 Chrome Extension: Search YouTube for Selected Text
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Coverage](./badges/coverage.svg)
 
@@ -8,49 +8,49 @@ Selected query will be passed to YouTube's search page in a new browser tab.
 
 ![chrome-extension-search-youtube](https://github.com/user-attachments/assets/0949cce6-2b09-451c-aeba-ca4644a120ab)
 
-## Installation
+## 🌟 Installation
 You can easily install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/search-youtube-for-select/ljcefbidblfpfiheimehfaibcelaboln).
 
-## Development
+## ️🛠️ Development
 
 To install the extension locally for development:
 
-1. **Clone the repository**:
+1. 🖥️ **Clone the repository**:
 
     ```sh
     git clone https://github.com/w431/chrome-extension-search-youtube-selected-text.git
     cd chrome-extension-search-youtube-selected-text
     ```
 
-2. **Install dependencies**:
+2. 📦 **Install dependencies**:
 
     ```sh
     npm install
     ```
 
-3. **Build the project**:
+3. ⚙ **Build the project**:
 
     ```sh
     npm run build
     ```
 
-4. **Load the extension in Chrome**:
+4. 🌐 **Load the extension in Chrome**:
     - Open Chrome and go to `chrome://extensions/`.
     - Enable "Developer mode" at the top right.
     - Click on "Load unpacked" and select the `dist` folder from your project directory.
 
-## Supported Languages
+## 🌍 Supported Languages
 
 -   English
 -   Arabic
 
 Feel free to translate this extension to your language. Contributions are welcome!
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! Feel free to submit pull requests or open issues.
 
