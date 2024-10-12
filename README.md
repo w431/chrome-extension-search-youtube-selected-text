@@ -6,7 +6,12 @@ Simple Google Chrome browser extension that adds a context menu to search YouTub
 Just highlight the text, right click and choose 'Search YouTube for'.
 Selected query will be passed to YouTube's search page in a new browser tab.
 
+![chrome-extension-search-youtube](https://github.com/user-attachments/assets/0949cce6-2b09-451c-aeba-ca4644a120ab)
+
 ## Installation
+You can easily install the extension from the [Chrome Web Store](https://chromewebstore.google.com/detail/search-youtube-for-select/ljcefbidblfpfiheimehfaibcelaboln).
+
+## Development
 
 To install the extension locally for development:
 
