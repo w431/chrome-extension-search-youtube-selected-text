@@ -1,6 +1,7 @@
 import eslint from '@eslint/js';
 import tseslint from 'typescript-eslint';
 import stylistic from '@stylistic/eslint-plugin';
+import json from 'eslint-plugin-json';
 
 export default [
     {
@@ -15,6 +16,7 @@ export default [
     {
         plugins: {
             '@stylistic': stylistic,
+            json: json,
         },
         rules: {
             '@stylistic/quotes': [
@@ -95,12 +97,17 @@ export default [
                 {
                     code: 120,
                     ignoreUrls: true,
-                    ignoreComments: false,
+                    ignoreComments: true,
                     ignoreRegExpLiterals: true,
                     ignoreStrings: true,
                     ignoreTemplateLiterals: true,
                 },
             ],
         },
+    },
+    {
+        files: ['**/*.json'],
+        ignores: ['dist/*'],
+        ...json.configs['recommended'],
     },
 ];
